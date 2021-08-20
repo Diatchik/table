@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>
+    Table
+  </title>
+</head>
+
+<body>
+  <div>
+    <div>
+      <input class="form-control form-control-lg filter-input" type="text" placeholder="Filter orders table..."
+        autofocus="autofocus" value="" />
+    </div>
+    <div>
+      <table>
+        <thead>
+          <tr>
+            <th>
+              Name &nbsp;
+              <i aria-hidden="true"></i>
+            </th>
+            <th>
+              Subtotal &nbsp;
+              <i aria-hidden="true"></i>
+            </th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <p class="err">No results were found...</p>
+    </div>
+    
+  </div>
+  <script type="module" src="js/index.js"></script>
+</body>
+
+</html>
